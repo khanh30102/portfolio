@@ -37,21 +37,14 @@ export const experiences = [
 ];
 
 export const projects = [
+
   {
     id: 1,
-    title: "Website Bán Sách (Bookstore)",
-    description: "Đồ án xây dựng website thương mại điện tử chuyên về sách với đầy đủ chức năng quản lý sản phẩm và giỏ hàng.",
-    image: "https://placehold.co/600x400/png?text=PHP+Bookstore",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    link: "https://github.com/khanh30102/bookstore-php"
-  },
-  {
-    id: 2,
     title: "Portfolio Cá nhân",
     description: "Website giới thiệu bản thân và các kỹ năng lập trình Frontend, được xây dựng theo dạng Single Page Application.",
     image: "https://placehold.co/600x400/png?text=React+Portfolio",
     tech: ["React JS", "Tailwind CSS", "Vite"],
-    link: "https://github.com/khanh30102/my-portfolio"
+    link: "https://github.com/khanh30102/portfolio"
   }
 ];
 
