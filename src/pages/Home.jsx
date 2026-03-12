@@ -43,7 +43,14 @@ const Home = () => {
             <Link to="/contact" className="px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-blue-600 transition-colors flex items-center justify-center gap-2">
               Liên hệ ngay <ArrowRight size={20} />
             </Link>
-            <a href="/NguyenVanA_CV.pdf" download className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center justify-center gap-2">
+            
+            {/* Link CV đã được cập nhật ở đây */}
+            <a 
+              href="https://drive.google.com/file/d/13cvx-q7g5MNpmNSfmaYXuxTwhSKzcGY3/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
+            >
               Xem CV <Download size={20} />
             </a>
           </div>
